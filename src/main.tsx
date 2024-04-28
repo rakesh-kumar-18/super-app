@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
-import SignUp from './pages/SignUp.tsx';
+import { Movies, SignUp } from './pages';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <SignUp />
+  },
+  {
+    path: "/category",
+    element: <Movies />
   }
 ]);
 
