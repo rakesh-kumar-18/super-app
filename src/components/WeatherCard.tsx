@@ -5,7 +5,7 @@ function WeatherCard({ main, weather, wind }: WeatherData) {
     const icon = `https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`;
 
     return (
-        <div className="w-fit">
+        <div className="w-full">
             <div className="flex justify-evenly bg-[#FF4ADE] text-2xl py-1 font-semibold rounded-t-2xl">
                 <p>{date.toLocaleDateString()}</p>
                 <p>{date.toLocaleTimeString()}</p>

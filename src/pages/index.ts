@@ -1,5 +1,6 @@
 import SignUp from "./SignUp";
-import Movies from "./Movies";
+import Categories from "./Categories";
 import Dashboard from "./Dashboard";
+import Movies from "./Movies";
 
-export { SignUp, Movies, Dashboard };
+export { SignUp, Categories, Dashboard, Movies };
