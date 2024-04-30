@@ -1,8 +1,16 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+export interface UserDetails {
+    name: string;
+    username: string;
+    email: string;
+    mobile: string;
+    checked: boolean;
+}
+
 function SignupForm() {
-    const [formData, setFormData] = useState({
+    const [formData, setFormData] = useState<UserDetails>({
         name: "",
         username: "",
         email: "",

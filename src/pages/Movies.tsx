@@ -14,7 +14,7 @@ function Movies() {
             warning.classList.remove("hidden");
         } else {
             localStorage.setItem("categories", JSON.stringify(selectedMovies));
-            navigate("/home");
+            navigate("/dashboard");
         }
     };
 

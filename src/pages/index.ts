@@ -1,5 +1,5 @@
 import SignUp from "./SignUp";
 import Movies from "./Movies";
-import Home from "./Home";
+import Dashboard from "./Dashboard";
 
-export { SignUp, Movies, Home };
+export { SignUp, Movies, Dashboard };
